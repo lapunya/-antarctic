@@ -1,0 +1,139 @@
+.nav {
+  margin-left: auto;
+}
+
+.nav__toggle {
+  display: none;
+}
+
+.nav__list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav__item {
+  margin-right: 33px;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.nav__link {
+  font-family: 'Montserrat';
+  font-size: 16px;
+  line-height: 20px;
+  font-style: normal;
+  font-weight: 500;
+  text-decoration: none;
+  color: #F9FBFD;
+  &:hover {
+    opacity: 0.6;
+  }
+  &:active {
+    opacity: 0.3;
+  }
+}
+
+@media (max-width: $tablet-width) {
+  .nav__item {
+    margin-right: 23px;
+  }
+
+  .nav__link {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
+
+@media (max-width: $mobile-width) {
+  .nav {
+    margin-top: 20px;
+    margin-right: 4.68%;
+  }
+
+  .nav__toggle {
+    width: 24px;
+    height: 18px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../img/menu-burger.svg');
+    background-repeat: no-repeat;
+    background-size: 24px 18px;
+    background-position: center;
+    background-color: transparent;
+    border: none;
+  }
+
+  .nav__list {
+    display: none;
+  }
+
+  .nav--nojs {
+    width: 100%;
+    margin: 0;
+    padding-top: 92px;
+    padding-right: 4.68%;
+    padding-bottom: 58px;
+    padding-left: 4.68%;
+    background-color: #E5E5E5;
+    position: relative;
+    top: -46px;
+  }
+
+  .nav--nojs .nav__list {
+    display: block;
+  }
+
+  .nav--nojs .nav__toggle {
+    display: none;
+  }
+
+  .nav--opened {
+    width: 100%;
+    margin: 0;
+    padding-top: 25px;
+    padding-right: 4.68%;
+    padding-bottom: 59px;
+    padding-left: 4.68%;
+    background-color: #E5E5E5;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .nav--opened .nav__list {
+    display: block;
+  }
+
+  .nav--opened .nav__toggle {
+    width: 13px;
+    height: 13px;
+    background-image: url('../../img/menu-cross.svg');
+    background-size: 13px 13px;
+    margin-bottom: 54px;
+    margin-left: auto;
+  }
+
+ .nav--closed {
+    position: relative;
+  }
+
+  .nav__item {
+    margin-right: 0;
+    margin-bottom: 20px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .nav__link {
+    font-size: 18px;
+    line-height: 22px;
+    color: #011C40;
+  }
+
+}

@@ -1,0 +1,86 @@
+.intro {
+  min-height: 650px;
+  position: relative;
+  z-index: -1;
+  margin-top: -77px;
+  padding-top: 270px;
+  background-image: url('../img/intro-desktop.jpg');
+  background-size: 100% 650px;
+  background-repeat: no-repeat;
+  background-color: #00BFFF;
+}
+
+.intro__container {
+  width: 84.92%;
+  max-width: 1160px;
+  margin: 0 auto;
+  padding-left: 95px;
+}
+
+.intro h1 {
+  margin: 0;
+  margin-bottom: 12px;
+  font-size: 54px;
+  line-height: 66px;
+  font-style: normal;
+  font-weight: bold;
+  color: #F9FBFD;
+}
+
+.intro p {
+  margin: 0;
+  font-size: 20px;
+  line-height: 24px;
+  font-style: normal;
+  font-weight: normal;
+  color: #F9FBFD;
+}
+
+@media (max-width: $tablet-width) {
+  .intro {
+    min-height: 638px;
+    margin-top: -54px;
+    padding-top: 268px;
+    background-image: url('../img/intro-tablet.jpg');
+    background-size: 100% 638px;
+  }
+
+  .intro__container {
+    width: 88.28%;
+    padding: 0;
+  }
+
+  .intro h1 {
+    font-size: 50px;
+    line-height: 61px;
+  }
+
+  .intro p {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+@media (max-width: $mobile-width) {
+  .intro {
+    min-height: 500px;
+    margin-top: -46px;
+    padding-top: 176px;
+    background-image: url('../img/intro-mobile.jpg');
+    background-size: 100% 500px;
+  }
+
+  .intro__container {
+    width: 90.62%;
+  }
+
+  .intro h1 {
+    font-size: 36px;
+    line-height: 45px;
+  }
+
+  .intro p {
+    font-size: 16px;
+    width: 68.96%;
+  }
+}
