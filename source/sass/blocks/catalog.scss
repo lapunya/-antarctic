@@ -114,3 +114,70 @@
 .catalog__item:hover .catalog__popup {
   display: flex;
 }
+
+@media (max-width: $tablet-width) {
+  .catalog__container {
+    width: 88.28%;
+    padding-top: 90px;
+    padding-right: 2%;
+    padding-bottom: 70px;
+    padding-left: 2%;
+  }
+
+  .catalog h2 {
+    font-size: 26px;
+    line-height: 39px;
+  }
+
+  .catalog__item {
+    width: 47.74%;
+  }
+
+  .catalog__item h3 {
+    margin-top: 332px;
+  }
+
+  .catalog__popup {
+    padding-right: 11.1%;
+    padding-left: 11.6%;
+  }
+
+  .catalog__popup h3 {
+    margin: 0;
+  }
+}
+
+@media (max-width: $mobile-width) {
+  .catalog__container {
+    width: 90.62%;
+    padding-top: 57px;
+    padding-right: 3.13%;
+    padding-bottom: 35px;
+    padding-left: 3.13%;
+  }
+
+  .catalog h2 {
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 30px;
+  }
+
+  .catalog__item {
+    width: 100%;
+  }
+
+  .catalog__item h3 {
+    margin-top: 341px;
+    margin-left: 9.8%;
+  }
+
+  .catalog__popup {
+    padding-right: 9.1%;
+    padding-left: 9.4%;
+  }
+
+  .catalog__popup h3 {
+    margin: 0;
+  }
+
+}
