@@ -71,12 +71,11 @@
             морских котиков и многое другое.
           </p>
         </div>
-        <img sizes="(max-width: 767px) 290px,
-                    (max-width: 1023px) 324px,
-                    560px" srcset="img/pinguin-mobile.jpg 290w,
-                      img/pinguin-tablet.jpg 324w,
-                      img/pinguin-desktop.jpg 560w" src="img/pinguin-desktop.jpg" width="560" height="301"
-          alt="Фото пингвинов">
+        <picture>
+          <source srcset="img/pinguin-mobile.jpg" media="(max-width: 767px)">
+          <source srcset="img/pinguin-tablet.jpg" media="(max-width: 1023px)">
+          <img src="img/pinguin-desktop.jpg" width="560" height="301" alt="Фото пингвинов">
+        </picture>
       </div>
     </section>
     <section class="advantages">
@@ -120,7 +119,7 @@
               <a class="catalog__link" href="#">Забронировать</a>
             </div>
           </li>
-          <li class="catalog__item">
+          <li class="catalog__item catalog__item--aline">
             <h3>Круиз "Элайн"</h3>
             <div class="catalog__popup">
               <h3>Круиз "Элайн"</h3>
@@ -135,7 +134,7 @@
               <a class="catalog__link" href="#">Забронировать</a>
             </div>
           </li>
-          <li class="catalog__item">
+          <li class="catalog__item catalog__item--atlantis">
             <h3>Круиз "Атлантис"</h3>
             <div class="catalog__popup">
               <h3>Круиз "Атлантис"</h3>
@@ -150,7 +149,7 @@
               <a class="catalog__link" href="#">Забронировать</a>
             </div>
           </li>
-          <li class="catalog__item">
+          <li class="catalog__item catalog__item--odissey">
             <h3>Круиз "Одиссей"</h3>
             <div class="catalog__popup">
               <h3>Круиз "Одиссей"</h3>
@@ -165,7 +164,7 @@
               <a class="catalog__link" href="#">Забронировать</a>
             </div>
           </li>
-          <li class="catalog__item">
+          <li class="catalog__item catalog__item--olimpia">
             <h3>Круиз "Олимпия"</h3>
             <div class="catalog__popup">
               <h3>Круиз "Олимпия"</h3>
@@ -180,7 +179,7 @@
               <a class="catalog__link" href="#">Забронировать</a>
             </div>
           </li>
-          <li class="catalog__item">
+          <li class="catalog__item catalog__item--avrora">
             <h3>Круиз "Аврора"</h3>
             <div class="catalog__popup">
               <h3>Круиз "Аврора"</h3>
@@ -195,7 +194,7 @@
               <a class="catalog__link" href="#">Забронировать</a>
             </div>
           </li>
-          <li class="catalog__item">
+          <li class="catalog__item catalog__item--leonor">
             <h3>Круиз "Леонор"</h3>
             <div class="catalog__popup">
               <h3>Круиз "Леонор"</h3>
@@ -210,7 +209,7 @@
               <a class="catalog__link" href="#">Забронировать</a>
             </div>
           </li>
-          <li class="catalog__item">
+          <li class="catalog__item catalog__item--minion">
             <h3>Круиз "Минион - 1"</h3>
             <div class="catalog__popup">
               <h3>Круиз "Минион - 1"</h3>
@@ -226,6 +225,11 @@
             </div>
           </li>
         </ul>
+      </div>
+    </section>
+    <section class="booking">
+      <div class="booking__container">
+
       </div>
     </section>
   </main>

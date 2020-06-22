@@ -29,11 +29,31 @@
 }
 
 .catalog__item {
-  width: 23.09%;
+  width: 22.84%;
   min-height: 386px;
   margin-bottom: 30px;
   position: relative;
-  background-color: tomato;
+  background-image: url('../img/astoria.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  &--atlantis {
+    background-image: url('../img/atlantis.jpg');
+  }
+  &--odissey {
+    background-image: url('../img/odissey.jpg');
+  }
+  &--olimpia {
+    background-image: url('../img/olimpia.jpg');
+  }
+  &--avrora {
+    background-image: url('../img/avrora.jpg');
+  }
+  &--leonor {
+    background-image: url('../img/leonor.jpg');
+  }
+  &--minion {
+    background-image: url('../img/minion.jpg');
+  }
 }
 
 .catalog__item h3 {
