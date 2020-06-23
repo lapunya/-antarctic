@@ -1,7 +1,8 @@
 .booking {
   background-image: url('../img/booking-background-desktop.jpg');
-  background-size: 100% 555px;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
+  background-color: #00BFFF;
 }
 
 .booking__container {
@@ -9,9 +10,9 @@
   max-width: 1160px;
   margin: 0 auto;
   padding-top: 50px;
-  padding-right: 4.4%;
+  padding-right: 60px;
   padding-bottom: 50px;
-  padding-left: 4.4%;
+  padding-left: 60px;
   display: flex;
   justify-content: space-between;
 }
