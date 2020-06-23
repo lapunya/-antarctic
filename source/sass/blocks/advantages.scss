@@ -1,8 +1,8 @@
 .advantages {
-  background-image: url('../img/advantages-desktop.jpg');
+  background-image: url("../img/advantages-desktop.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  background-color: #00BFFF;
+  background-color: #00bfff;
 }
 
 .advantages__container {
@@ -18,7 +18,7 @@
   line-height: 42px;
   font-style: normal;
   font-weight: 600;
-  color: #011C40;
+  color: #011c40;
   margin: 0;
   margin-bottom: 49px;
   text-align: center;
@@ -38,29 +38,32 @@
   padding-right: 30px;
   padding-bottom: 25px;
   padding-left: 30px;
-  background-color: #F9FBFD;
+  background-color: #f9fbfd;
   position: relative;
+
   &::before {
-    content: '';
+    content: "";
     width: 27px;
     height: 32px;
-    background-image: url('../img/boat.svg');
+    background-image: url("../img/boat.svg");
     background-size: 27px 32px;
     position: absolute;
     top: 30px;
     left: 30px;
   }
+
   &--allin::before {
     width: 38px;
     height: 21px;
-    background-image: url('../img/all-in.svg');
+    background-image: url("../img/all-in.svg");
     background-size: 38px 21px;
     top: 35px;
   }
+
   &--tour::before {
     width: 42px;
     height: 15px;
-    background-image: url('../img/tour.svg');
+    background-image: url("../img/tour.svg");
     background-size: 42px 15px;
     top: 38px;
   }
@@ -71,7 +74,7 @@
   line-height: 27px;
   font-style: normal;
   font-weight: 500;
-  color: #011C40;
+  color: #011c40;
   margin: 0;
   margin-bottom: 8px;
 }
@@ -81,13 +84,13 @@
   line-height: 20px;
   font-style: normal;
   font-weight: normal;
-  color: #011C40;
+  color: #011c40;
   margin: 0;
 }
 
 @media (max-width: $tablet-width) {
   .advantages {
-    background-image: url('../img/advantages-tablet.jpg');
+    background-image: url("../img/advantages-tablet.jpg");
     background-size: 100% 588px;
   }
 
@@ -108,20 +111,23 @@
     padding-right: 12px;
     padding-bottom: 20px;
     padding-left: 20px;
+
     &::before {
-      content: '';
+      content: "";
       width: 21px;
       height: 26px;
       background-size: 21px 26px;
       top: 25px;
       left: 20px;
     }
+
     &--allin::before {
       width: 33px;
       height: 19px;
       background-size: 33px 19px;
       top: 29px;
     }
+
     &--tour::before {
       width: 38px;
       height: 13px;
@@ -137,7 +143,7 @@
 
 @media (max-width: $mobile-width) {
   .advantages {
-    background-image: url('../img/advantages-mobile.jpg');
+    background-image: url("../img/advantages-mobile.jpg");
     background-size: 100% 997px;
   }
 
@@ -161,6 +167,7 @@
     width: 100%;
     margin-bottom: 29px;
     padding-right: 20px;
+
     &:last-child {
       margin-bottom: 0;
     }
@@ -169,5 +176,4 @@
   .advantages__item h3 {
     width: 68.82%;
   }
-
 }
