@@ -1,0 +1,127 @@
+.contacts__container {
+  width: 84.92%;
+  max-width: 1160px;
+  margin: 0 auto;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts__map {
+  width: 48.27%;
+  background-image: url('../img/map-desktop.png');
+  background-size: 100% 100%;
+}
+
+.contacts__text {
+  width: 43.1%;
+  padding-top: 75px;
+  padding-bottom: 76px;
+}
+
+.contacts__text p {
+  font-size: 18px;
+  line-height: 27px;
+  font-style: normal;
+  font-weight: 500;
+  color: #011C40;
+  margin: 0;
+  margin-bottom: 32px;
+}
+
+.contacts__text span {
+  display: block;
+  font-size: 16px;
+  line-height: 24px;
+  font-style: normal;
+  font-weight: normal;
+  color: #011C40;
+  margin-bottom: 21px;
+  padding-left: 28px;
+  position: relative;
+  &::before {
+    content: '';
+    width: 18px;
+    height: 22px;
+    background-image: url('../img/mark.svg');
+    background-size: 18px 22px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+
+.contacts__tel {
+  font-size: 16px;
+  line-height: 24px;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+  color: #011C40;
+  padding-left: 28px;
+  position: relative;
+  &::before {
+    content: '';
+    width: 18px;
+    height: 18px;
+    background-image: url('../img/tel.svg');
+    background-size: 18px 18px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+
+@media (max-width: $tablet-width) {
+  .contacts__container {
+    width: 88.28%;
+    padding-top: 100px;
+    padding-bottom: 92px;
+  }
+
+  .contacts__map {
+    width: 47.79%;
+    background-image: url('../img/map-tablet.png');
+  }
+
+  .contacts__text {
+    width: 47.79%;
+    padding-top: 66px;
+    padding-bottom: 76px;
+  }
+
+  .contacts__text p {
+    margin-bottom: 28px;
+  }
+
+  .contacts__text span {
+    margin-bottom: 20px;
+    &::before {
+      top: 4px;
+    }
+  }
+}
+
+@media (max-width: $mobile-width) {
+  .contacts__container {
+    width: 90.62%;
+    padding-top: 23px;
+    padding-bottom: 65px;
+    flex-wrap: wrap;
+  }
+
+  .contacts__map {
+    width: 100%;
+    min-height: 316px;
+    background-image: url('../img/map-mobile.png');
+  }
+
+  .contacts__text {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 36px;
+    order: -1;
+  }
+
+}
