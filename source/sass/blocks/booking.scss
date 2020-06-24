@@ -1,8 +1,8 @@
 .booking {
-  background-image: url('../img/booking-background-desktop.jpg');
+  background-image: url("../img/booking-background-desktop.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  background-color: #00BFFF;
+  background-color: #00bfff;
 }
 
 .booking__container {
@@ -27,7 +27,7 @@
   line-height: 60px;
   font-style: normal;
   font-weight: bold;
-  color: #011C40;
+  color: #011c40;
   margin: 0;
   margin-bottom: 8px;
 }
@@ -38,7 +38,7 @@
   line-height: 27px;
   font-style: normal;
   font-weight: normal;
-  color: #011C40;
+  color: #011c40;
   margin: 0;
 }
 
@@ -48,7 +48,7 @@
   padding-right: 4.81%;
   padding-bottom: 50px;
   padding-left: 4.81%;
-  background-color: #011C40;
+  background-color: #011c40;
 }
 
 .booking form p {
@@ -56,7 +56,7 @@
   line-height: 27px;
   font-style: normal;
   font-weight: 500;
-  color: #F9FBFD;
+  color: #f9fbfd;
   margin: 0;
   margin-bottom: 27px;
 }
@@ -68,13 +68,14 @@
   padding-bottom: 11px;
   padding-left: 16px;
   margin-bottom: 20px;
-  font-family: Montserrat;
+  font-family: "Montserrat", "Arial", sans-serif;
   font-size: 14px;
   line-height: 21px;
   font-style: normal;
   font-weight: normal;
-  color: #011C40;
+  color: #011c40;
   border: none;
+
   &--mail {
     margin-bottom: 25px;
   }
@@ -88,25 +89,27 @@
 }
 
 .booking__label {
-  font-family: Montserrat;
+  font-family: "Montserrat", "Arial", sans-serif;
   font-size: 10px;
   line-height: 13px;
   font-style: normal;
   font-weight: normal;
-  color: #F9FBFD;
+  color: #f9fbfd;
   display: block;
   padding-left: 24px;
   position: relative;
   cursor: pointer;
+
   &::before {
-    content: '';
+    content: "";
     width: 18px;
     height: 18px;
     position: absolute;
     top: -5px;
     left: 0;
-    background-color: #F9FBFD;
+    background-color: #f9fbfd;
   }
+
   &:hover {
     opacity: 0.6;
   }
@@ -118,25 +121,25 @@
 
 .booking__checkbox:checked + .booking__label {
   &::after {
-    content: '';
+    content: "";
     width: 10px;
     height: 6px;
     position: absolute;
     top: 2px;
     left: 4px;
-    background-image: url('../img/check.svg');
+    background-image: url("../img/check.svg");
     background-size: 10px 6px;
     background-repeat: no-repeat;
   }
 }
 
 .booking__submit {
-  font-family: Montserrat;
+  font-family: "Montserrat", "Arial", sans-serif;
   font-size: 14px;
   line-height: 21px;
   font-style: normal;
   font-weight: 600;
-  color: #011C40;
+  color: #011c40;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -146,9 +149,11 @@
   margin-top: 30px;
   border: none;
   cursor: pointer;
+
   &:hover {
     opacity: 0.6;
   }
+
   &:active {
     opacity: 0.3;
   }
@@ -156,7 +161,7 @@
 
 @media (max-width: $tablet-width) {
   .booking {
-    background-image: url('../img/booking-background-tablet.jpg');
+    background-image: url("../img/booking-background-tablet.jpg");
     background-size: 100% 805px;
   }
 
@@ -198,7 +203,7 @@
 
 @media (max-width: $mobile-width) {
   .booking {
-    background-image: url('../img/booking-background-mobile.jpg');
+    background-image: url("../img/booking-background-mobile.jpg");
     background-size: 100% 760px;
   }
 
@@ -243,6 +248,7 @@
 
   .booking__label {
     line-height: 12px;
+
     &::before {
       width: 20px;
       height: 20px;
@@ -253,5 +259,4 @@
   .booking__submit {
     margin-top: 26px;
   }
-
 }

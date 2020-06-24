@@ -13,7 +13,7 @@
   line-height: 42px;
   font-style: normal;
   font-weight: 600;
-  color: #011C40;
+  color: #011c40;
   margin: 0;
   margin-bottom: 49px;
   text-align: center;
@@ -33,27 +33,33 @@
   min-height: 386px;
   margin-bottom: 30px;
   position: relative;
-  background-image: url('../img/astoria.jpg');
+  background-image: url("../img/astoria.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  background-color: #00BFFF;
+  background-color: #00bfff;
+
   &--atlantis {
-    background-image: url('../img/atlantis.jpg');
+    background-image: url("../img/atlantis.jpg");
   }
+
   &--odissey {
-    background-image: url('../img/odissey.jpg');
+    background-image: url("../img/odissey.jpg");
   }
+
   &--olimpia {
-    background-image: url('../img/olimpia.jpg');
+    background-image: url("../img/olimpia.jpg");
   }
+
   &--avrora {
-    background-image: url('../img/avrora.jpg');
+    background-image: url("../img/avrora.jpg");
   }
+
   &--leonor {
-    background-image: url('../img/leonor.jpg');
+    background-image: url("../img/leonor.jpg");
   }
+
   &--minion {
-    background-image: url('../img/minion.jpg');
+    background-image: url("../img/minion.jpg");
   }
 }
 
@@ -62,7 +68,7 @@
   line-height: 27px;
   font-style: normal;
   font-weight: 500;
-  color: #F9FBFD;
+  color: #f9fbfd;
   margin: 0;
   margin-top: 337px;
   margin-left: 11.5%;
@@ -75,7 +81,7 @@
   padding-right: 9.7%;
   padding-bottom: 35px;
   padding-left: 9.7%;
-  background-color: #011C40;
+  background-color: #011c40;
   display: none;
   flex-direction: column;
   justify-content: space-between;
@@ -89,7 +95,7 @@
   line-height: 27px;
   font-style: normal;
   font-weight: 500;
-  color: #F9FBFD;
+  color: #f9fbfd;
   margin: 0;
 }
 
@@ -98,7 +104,7 @@
   line-height: 20px;
   font-style: normal;
   font-weight: 500;
-  color: #F9FBFD;
+  color: #f9fbfd;
   display: block;
 }
 
@@ -107,7 +113,7 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 20px;
-  color: #D8D8D9;
+  color: #d8d8d9;
   display: block;
 }
 
@@ -117,16 +123,18 @@
   font-style: normal;
   font-weight: 600;
   text-decoration: none;
-  color: #011C40;
-  background-color: #F9FBFD;
+  color: #011c40;
+  background-color: #f9fbfd;
   width: 100%;
   display: flex;
   justify-content: center;
   padding-top: 10px;
   padding-bottom: 10px;
+
   &:hover {
     opacity: 0.6;
   }
+
   &:active {
     opacity: 0.3;
   }
@@ -200,5 +208,4 @@
   .catalog__popup h3 {
     margin: 0;
   }
-
 }
