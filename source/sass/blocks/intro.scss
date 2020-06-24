@@ -4,10 +4,14 @@
   z-index: -1;
   margin-top: -77px;
   padding-top: 270px;
-  background-image: url("../img/intro-desktop.jpg");
+  background-image: url("../img/intro-desktop@1x.jpg");
   background-size: 100% 650px;
   background-repeat: no-repeat;
   background-color: #00bfff;
+
+  @media (min-resolution: $retina-dppx) {
+    background-image: url("../img/intro-desktop@2x.jpg");
+  }
 }
 
 .intro__container {
@@ -41,8 +45,12 @@
     min-height: 638px;
     margin-top: -54px;
     padding-top: 268px;
-    background-image: url("../img/intro-tablet.jpg");
+    background-image: url("../img/intro-tablet@1x.jpg");
     background-size: 100% 638px;
+
+    @media (min-resolution: $retina-dppx) {
+      background-image: url("../img/intro-tablet@2x.jpg");
+    }
   }
 
   .intro__container {
@@ -66,8 +74,12 @@
     min-height: 500px;
     margin-top: -46px;
     padding-top: 176px;
-    background-image: url("../img/intro-mobile.jpg");
+    background-image: url("../img/intro-mobile@1x.jpg");
     background-size: 100% 500px;
+
+    @media (min-resolution: $retina-dppx) {
+      background-image: url("../img/intro-mobile@2x.jpg");
+    }
   }
 
   .intro__container {
