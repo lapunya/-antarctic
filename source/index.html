@@ -136,7 +136,7 @@
                   </tr>
                 </tbody>
               </table>
-              <a class="catalog__link" href="#">Забронировать</a>
+              <a class="catalog__link" href="booking-page.html">Забронировать</a>
             </div>
           </li>
           <li class="catalog__item catalog__item--aline">
@@ -171,7 +171,7 @@
                   </tr>
                 </tbody>
               </table>
-              <a class="catalog__link" href="#">Забронировать</a>
+              <a class="catalog__link" href="booking-page.html">Забронировать</a>
             </div>
           </li>
           <li class="catalog__item catalog__item--atlantis">
@@ -206,7 +206,7 @@
                   </tr>
                 </tbody>
               </table>
-              <a class="catalog__link" href="#">Забронировать</a>
+              <a class="catalog__link" href="booking-page.html">Забронировать</a>
             </div>
           </li>
           <li class="catalog__item catalog__item--odissey">
@@ -241,7 +241,7 @@
                   </tr>
                 </tbody>
               </table>
-              <a class="catalog__link" href="#">Забронировать</a>
+              <a class="catalog__link" href="booking-page.html">Забронировать</a>
             </div>
           </li>
           <li class="catalog__item catalog__item--olimpia">
@@ -276,7 +276,7 @@
                   </tr>
                 </tbody>
               </table>
-              <a class="catalog__link" href="#">Забронировать</a>
+              <a class="catalog__link" href="booking-page.html">Забронировать</a>
             </div>
           </li>
           <li class="catalog__item catalog__item--avrora">
@@ -311,7 +311,7 @@
                   </tr>
                 </tbody>
               </table>
-              <a class="catalog__link" href="#">Забронировать</a>
+              <a class="catalog__link" href="booking-page.html">Забронировать</a>
             </div>
           </li>
           <li class="catalog__item catalog__item--leonor">
@@ -346,7 +346,7 @@
                   </tr>
                 </tbody>
               </table>
-              <a class="catalog__link" href="#">Забронировать</a>
+              <a class="catalog__link" href="booking-page.html">Забронировать</a>
             </div>
           </li>
           <li class="catalog__item catalog__item--minion">
@@ -381,7 +381,7 @@
                   </tr>
                 </tbody>
               </table>
-              <a class="catalog__link" href="#">Забронировать</a>
+              <a class="catalog__link" href="booking-page.html">Забронировать</a>
             </div>
           </li>
         </ul>
@@ -395,9 +395,12 @@
         </div>
         <form action="" method="POST">
           <p>Оставьте заявку и мы свяжемся с вами в ближайшее время</p>
-          <input class="booking__input" type="text" placeholder="Валерия">
-          <input class="booking__input" type="tel" placeholder="89236889975">
-          <input class="booking__input booking__input--mail" type="email" placeholder="grishaewa.lera@gmail.com">
+          <label class="visually-hidden" for="name">Имя</label>
+          <input class="booking__input" type="text" name="Name" id="name" placeholder="Валерия">
+          <label class="visually-hidden" for="tel">Телефон</label>
+          <input class="booking__input" type="tel" name="Telephone" id="tel" placeholder="89236889975">
+          <label class="visually-hidden" for="email">E-mail</label>
+          <input class="booking__input booking__input--mail" type="email" name="E-mail" id="email" placeholder="grishaewa.lera@gmail.com">
           <input class="booking__checkbox" type="checkbox" name="agreement" id="agreement">
           <label class="booking__label" for="agreement">Я согласен на обработку моих персональных данных</label>
           <button class="booking__submit" type="submit">Оставить заявку</button>
@@ -415,6 +418,9 @@
       </div>
     </section>
   </main>
+  <script>
+    document.createElement("picture");
+  </script>
   <script src="js/vendor/picturefill.min.js"></script>
   <script src="js/menu.js"></script>
 </body>

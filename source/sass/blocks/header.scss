@@ -1,5 +1,5 @@
 .header__container {
-  width: 84.92%;
+  width: 85%;
   max-width: 1160px;
   margin: 0 auto;
   padding-top: 35px;
@@ -18,7 +18,7 @@
 
 @media (max-width: $tablet-width) {
   .header__container {
-    width: 88.28%;
+    width: 88%;
     padding-top: 30px;
     align-items: flex-start;
   }
@@ -39,7 +39,7 @@
 
   .header__link {
     margin-top: 20px;
-    margin-left: 4.68%;
+    margin-left: 5%;
     z-index: 10;
   }
 

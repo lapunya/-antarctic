@@ -1,5 +1,5 @@
 .journey__container {
-  width: 84.92%;
+  width: 85%;
   max-width: 1160px;
   display: flex;
   margin: 0 auto;
@@ -41,7 +41,7 @@
 
 @media (max-width: $tablet-width) {
   .journey__container {
-    width: 88.28%;
+    width: 88%;
     padding-top: 91px;
     padding-bottom: 92px;
   }
@@ -59,7 +59,7 @@
   }
 
   .journey__text p {
-    width: 91.5%;
+    width: 92%;
   }
 
   .journey__container img {
@@ -71,7 +71,7 @@
 
 @media (max-width: $mobile-width) {
   .journey__container {
-    width: 90.62%;
+    width: 91%;
     padding-top: 57px;
     padding-bottom: 61px;
     flex-wrap: wrap;

@@ -22,7 +22,7 @@
 }
 
 .nav__link {
-  font-family: "Montserrat", "Arial", sans-serif;
+  font-family: $main-font;
   font-size: 16px;
   line-height: 20px;
   font-style: normal;
@@ -53,7 +53,7 @@
 @media (max-width: $mobile-width) {
   .nav {
     margin-top: 20px;
-    margin-right: 4.68%;
+    margin-right: 5%;
   }
 
   .nav__toggle {
@@ -79,9 +79,9 @@
     width: 100%;
     margin: 0;
     padding-top: 92px;
-    padding-right: 4.68%;
+    padding-right: 5%;
     padding-bottom: 58px;
-    padding-left: 4.68%;
+    padding-left: 5%;
     background-color: #e5e5e5;
     position: relative;
     top: -46px;
@@ -99,9 +99,9 @@
     width: 100%;
     margin: 0;
     padding-top: 25px;
-    padding-right: 4.68%;
+    padding-right: 5%;
     padding-bottom: 59px;
-    padding-left: 4.68%;
+    padding-left: 5%;
     background-color: #e5e5e5;
     position: absolute;
     top: 0;
