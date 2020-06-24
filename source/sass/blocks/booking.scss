@@ -77,7 +77,7 @@
   border: none;
 
   &--mail {
-    margin-bottom: 25px;
+    margin-bottom: 21px;
   }
 
   &:hover {
@@ -104,6 +104,8 @@
   font-weight: normal;
   color: #f9fbfd;
   display: block;
+  padding-top: 2.5px;
+  padding-bottom: 2.5px;
   padding-left: 24px;
   position: relative;
   cursor: pointer;
@@ -113,7 +115,7 @@
     width: 18px;
     height: 18px;
     position: absolute;
-    top: -5px;
+    top: 0;
     left: 0;
     background-color: #f9fbfd;
   }
@@ -124,7 +126,7 @@
     width: 10px;
     height: 6px;
     position: absolute;
-    top: 2px;
+    top: 6px;
     left: 4px;
     background-image: url("../img/check.svg");
     background-size: 10px 6px;
@@ -159,7 +161,7 @@
   padding: 0;
   padding-top: 11px;
   padding-bottom: 11px;
-  margin-top: 30px;
+  margin-top: 29px;
   border: none;
   cursor: pointer;
 
@@ -262,6 +264,8 @@
 
   .booking__label {
     line-height: 12px;
+    padding-top: 0;
+    padding-bottom: 0;
 
     &::before {
       width: 20px;
