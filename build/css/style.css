@@ -787,6 +787,8 @@ body {
     opacity: 0.6; }
   .booking__input:active {
     opacity: 0.3; }
+  .booking__input:focus {
+    outline: 2px solid #9b9b9b; }
 
 .booking__checkbox {
   opacity: 0;

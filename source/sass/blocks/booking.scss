@@ -91,6 +91,10 @@
   &:active {
     opacity: 0.3;
   }
+
+  &:focus {
+    outline: 2px solid #9b9b9b;
+  }
 }
 
 .booking__checkbox {
