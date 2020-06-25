@@ -793,6 +793,8 @@ body {
   position: absolute;
   width: 1px;
   height: 1px; }
+  .booking__checkbox:focus + .booking__label {
+    text-decoration: underline; }
 
 .booking__label {
   font-family: "Montserrat", "Arial", sans-serif;

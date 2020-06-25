@@ -98,6 +98,10 @@
   position: absolute;
   width: 1px;
   height: 1px;
+
+  &:focus + .booking__label {
+    text-decoration: underline;
+  }
 }
 
 .booking__label {
