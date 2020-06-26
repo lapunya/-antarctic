@@ -407,12 +407,12 @@
         <form action="https://echo.htmlacademy.ru" method="POST">
           <p>Оставьте заявку и мы свяжемся с вами в ближайшее время</p>
           <label class="visually-hidden" for="name">Имя</label>
-          <input class="booking__input" type="text" name="Name" id="name" placeholder="Валерия">
+          <input class="booking__input" type="text" name="Name" id="name" placeholder="Валерия" required>
           <label class="visually-hidden" for="tel">Телефон</label>
-          <input class="booking__input" type="tel" name="Telephone" id="tel" placeholder="89236889975">
+          <input class="booking__input" type="tel" name="Telephone" id="tel" placeholder="89236889975" pattern="[0-9]{11}" required>
           <label class="visually-hidden" for="email">E-mail</label>
           <input class="booking__input booking__input--mail" type="email" name="E-mail" id="email"
-            placeholder="grishaewa.lera@gmail.com">
+            placeholder="grishaewa.lera@gmail.com" required>
           <input class="booking__checkbox" type="checkbox" name="agreement" id="agreement">
           <label class="booking__label" for="agreement">Я согласен на обработку моих персональных данных</label>
           <button class="booking__submit" type="submit">Оставить заявку</button>

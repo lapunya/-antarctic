@@ -112,6 +112,8 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   list-style: none;
   padding: 0;
   margin: 0; }
@@ -381,7 +383,7 @@ body {
   max-width: 1160px;
   margin: 0 auto;
   padding-top: 110px;
-  padding-bottom: 120px; }
+  padding-bottom: 110px; }
 
 .advantages h2 {
   font-size: 28px;
@@ -397,6 +399,8 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -406,6 +410,7 @@ body {
 
 .advantages__item {
   width: 31%;
+  margin-bottom: 10px;
   padding-top: 81px;
   padding-right: 30px;
   padding-bottom: 25px;
@@ -453,8 +458,7 @@ body {
 
 @media (max-width: 1023px) {
   .advantages {
-    background-image: url("../img/advantages-tablet@1x.jpg");
-    background-size: 100% 588px; } }
+    background-image: url("../img/advantages-tablet@1x.jpg"); } }
   @media (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), (max-width: 1023px) and (min-resolution: 1.5dppx) {
     .advantages {
       background-image: url("../img/advantages-tablet@2x.jpg"); } }
@@ -463,7 +467,7 @@ body {
   .advantages__container {
     width: 88%;
     padding-top: 90px;
-    padding-bottom: 100px; }
+    padding-bottom: 90px; }
   .advantages h2 {
     font-size: 26px;
     line-height: 39px; }
@@ -495,8 +499,7 @@ body {
 
 @media (max-width: 767px) {
   .advantages {
-    background-image: url("../img/advantages-mobile@1x.jpg");
-    background-size: 100% 997px; } }
+    background-image: url("../img/advantages-mobile@1x.jpg"); } }
   @media (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), (max-width: 767px) and (min-resolution: 1.5dppx) {
     .advantages {
       background-image: url("../img/advantages-mobile@2x.jpg"); } }
@@ -510,9 +513,6 @@ body {
     font-size: 24px;
     line-height: 36px;
     margin-bottom: 30px; }
-  .advantages__list {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap; }
   .advantages__item {
     width: 100%;
     margin-bottom: 29px;
