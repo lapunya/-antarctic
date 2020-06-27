@@ -6,6 +6,10 @@
   display: none;
 }
 
+.nav__link-main {
+  display: none;
+}
+
 .nav__list {
   display: flex;
   flex-wrap: wrap;
@@ -64,7 +68,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("../../img/menu-burger.svg");
+    background-image: url("../img/menu-burger.svg");
     background-repeat: no-repeat;
     background-size: 24px 18px;
     background-position: center;
@@ -77,11 +81,13 @@
   }
 
   .nav--nojs {
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
     margin: 0;
-    padding-top: 92px;
+    padding-top: 25px;
     padding-right: 5%;
-    padding-bottom: 58px;
+    padding-bottom: 59px;
     padding-left: 5%;
     background-color: #e5e5e5;
     position: relative;
@@ -90,6 +96,7 @@
 
   .nav--nojs .nav__list {
     display: block;
+    width: 100%;
   }
 
   .nav--nojs .nav__toggle {
@@ -97,9 +104,11 @@
   }
 
   .nav--opened {
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
     margin: 0;
-    padding-top: 25px;
+    padding-top: 20px;
     padding-right: 5%;
     padding-bottom: 59px;
     padding-left: 5%;
@@ -111,19 +120,36 @@
 
   .nav--opened .nav__list {
     display: block;
+    width: 100%;
   }
 
   .nav--opened .nav__toggle {
     width: 13px;
     height: 13px;
-    background-image: url("../../img/menu-cross.svg");
+    background-image: url("../img/menu-cross.svg");
     background-size: 13px 13px;
-    margin-bottom: 54px;
+    margin-bottom: 58px;
     margin-left: auto;
+    position: relative;
+    top: 5px;
   }
 
   .nav--closed {
     position: relative;
+  }
+
+  .nav--opened .nav__link-main {
+    display: block;
+  }
+
+  .nav--nojs .nav__link-main {
+    display: block;
+    margin-bottom: 40px;
+  }
+
+  .nav__logo {
+    width: 42px;
+    height: 22px;
   }
 
   .nav__item {
