@@ -54,7 +54,7 @@ gulp.task("vendorjs", function () {
 });
 
 gulp.task("mainjs", function () {
-  return gulp.src(["source/js/menu.js", "source/js/main.js"])
+  return gulp.src("source/js/*.js")
       .pipe(concat("main.js"))
       .pipe(uglify())
       .pipe(rename("main.min.js"))

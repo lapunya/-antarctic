@@ -2,6 +2,7 @@
 
 (function () {
   var navigation = document.querySelector('.nav');
+  var navButton = document.querySelector('.nav__toggle');
 
   if (navigation) {
     var closeNoJsMenu = function () {
@@ -18,11 +19,15 @@
       navigation.classList.remove('nav--opened');
       navigation.classList.add('nav--closed');
     };
-  }
 
-  window.menu = {
-    closeNoJsMenu: closeNoJsMenu,
-    open: openMenu,
-    close: closeMenu
-  };
+    closeNoJsMenu();
+
+    navButton.addEventListener('click', function () {
+      if (navigation.classList.contains('nav--closed')) {
+        openMenu();
+      } else {
+        closeMenu();
+      }
+    });
+  }
 })();
