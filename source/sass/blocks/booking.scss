@@ -79,6 +79,7 @@
   font-weight: normal;
   color: #011c40;
   border: none;
+  border-radius: 0;
 
   &--mail {
     margin-bottom: 21px;
@@ -167,6 +168,7 @@
   font-style: normal;
   font-weight: 600;
   color: #011c40;
+  background-color: #f9fbfd;
   width: 100%;
   display: flex;
   justify-content: center;

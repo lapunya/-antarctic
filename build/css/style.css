@@ -179,7 +179,8 @@ body {
     background-size: 24px 18px;
     background-position: center;
     background-color: transparent;
-    border: none; }
+    border: none;
+    outline: none; }
   .nav__list {
     display: none; }
   .nav--nojs {
@@ -194,7 +195,7 @@ body {
     padding-right: 5%;
     padding-bottom: 59px;
     padding-left: 5%;
-    background-color: #e5e5e5;
+    background-color: #f9fbfd;
     position: relative;
     top: -46px; }
   .nav--nojs .nav__list {
@@ -214,7 +215,7 @@ body {
     padding-right: 5%;
     padding-bottom: 59px;
     padding-left: 5%;
-    background-color: #e5e5e5;
+    background-color: #f9fbfd;
     position: absolute;
     top: 0;
     right: 0; }
@@ -248,7 +249,8 @@ body {
   .nav__link {
     font-size: 18px;
     line-height: 22px;
-    color: #011c40; } }
+    color: #011c40;
+    outline: none; } }
 
 .intro {
   min-height: 650px;
@@ -816,7 +818,8 @@ body {
   font-style: normal;
   font-weight: normal;
   color: #011c40;
-  border: none; }
+  border: none;
+  border-radius: 0; }
   .booking__input--mail {
     margin-bottom: 21px; }
   .booking__input:hover {
@@ -881,6 +884,7 @@ body {
   font-style: normal;
   font-weight: 600;
   color: #011c40;
+  background-color: #f9fbfd;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;

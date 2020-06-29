@@ -74,6 +74,7 @@
     background-position: center;
     background-color: transparent;
     border: none;
+    outline: none;
   }
 
   .nav__list {
@@ -89,7 +90,7 @@
     padding-right: 5%;
     padding-bottom: 59px;
     padding-left: 5%;
-    background-color: #e5e5e5;
+    background-color: #f9fbfd;
     position: relative;
     top: -46px;
   }
@@ -112,7 +113,7 @@
     padding-right: 5%;
     padding-bottom: 59px;
     padding-left: 5%;
-    background-color: #e5e5e5;
+    background-color: #f9fbfd;
     position: absolute;
     top: 0;
     right: 0;
@@ -165,5 +166,6 @@
     font-size: 18px;
     line-height: 22px;
     color: #011c40;
+    outline: none;
   }
 }
