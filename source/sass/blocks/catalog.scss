@@ -219,4 +219,8 @@
     margin: 0;
     margin-bottom: 11px;
   }
+
+  .catalog__item:active .catalog__popup {
+    display: flex;
+  }
 }
