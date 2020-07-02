@@ -2,19 +2,18 @@
 
 (function () {
   var items = document.querySelectorAll('.catalog__item');
-  var popups = document.querySelectorAll('.catalog__popup');
 
   for (var i = 0; i < items.length; i++) {
     var currentItem = items[i];
     (function () {
-      var index = i;
+      var popup = currentItem.querySelector('.catalog__popup');
 
       var showCard = function () {
-        popups[index].style = 'display: flex;';
+        popup.style = 'display: flex;';
       };
 
       var hideCard = function () {
-        popups[index].style = 'display: none;';
+        popup.style = 'display: none;';
       };
 
       currentItem.addEventListener('mouseover', showCard);
