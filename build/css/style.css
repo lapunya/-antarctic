@@ -744,11 +744,7 @@ body {
     padding-left: 9%; }
   .catalog__popup h3 {
     margin: 0;
-    margin-bottom: 11px; }
-  .catalog__item:active .catalog__popup {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex; } }
+    margin-bottom: 11px; } }
 
 .booking {
   background-image: url("../img/booking-desktop@1x.jpg");
